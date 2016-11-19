@@ -25,7 +25,7 @@ import com.facebook.FacebookSdk;
 /**
  * Created by Eun bee on 2016-10-25.
  */
-public class LoginPage extends AppCompatActivity {
+public class LoginPage extends BaseActivity {
     private CallbackManager callbackManager;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

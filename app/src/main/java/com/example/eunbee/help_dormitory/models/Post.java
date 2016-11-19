@@ -1,13 +1,10 @@
 package com.example.eunbee.help_dormitory.models;
 
-/**
- * Created by Student on 2016-11-15.
- */
+import com.google.firebase.database.Exclude;
 
 import java.util.HashMap;
 import java.util.Map;
 
-// [START post_class]
 public class Post {
 
     public String uid;
@@ -29,6 +26,7 @@ public class Post {
     }
 
     // [START post_to_map]
+    @Exclude
     public Map<String, Object> toMap() {
         HashMap<String, Object> result = new HashMap<>();
         result.put("uid", uid);

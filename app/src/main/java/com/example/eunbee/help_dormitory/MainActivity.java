@@ -9,7 +9,7 @@ import com.google.firebase.messaging.FirebaseMessaging;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     private static final String TAG = "MainActivity";
 
     public void onCreate(Bundle savedInstanceState){

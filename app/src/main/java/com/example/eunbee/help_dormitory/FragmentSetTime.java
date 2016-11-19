@@ -10,8 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.eunbee.help_dormitory.models.Post;
 import com.example.eunbee.help_dormitory.models.User;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -20,12 +23,16 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by Eun bee on 2016-11-07.
  */
 
 public class FragmentSetTime extends DialogFragment {
+    private static final String TAG = "FragmentSetTime";
+    private static final String REQUIRED = "Required";
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = firebaseDatabase.getReference();
 
@@ -37,8 +44,10 @@ public class FragmentSetTime extends DialogFragment {
 
     int year, month, day;
     Button ok_btn;
+
     @NonNull
     @Override
+
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         final Dialog dialog = new Dialog(getActivity());
         dialog.setContentView(R.layout.activity_dialog);

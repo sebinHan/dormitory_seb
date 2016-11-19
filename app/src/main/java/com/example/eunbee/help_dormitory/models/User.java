@@ -9,9 +9,9 @@ package com.example.eunbee.help_dormitory.models;
 public class User {
 
     public String work;
-    private int year;
-    private int month;
-    private int date;
+    public int year;
+    public int month;
+    public int date;
 
 
     public User() {
@@ -25,16 +25,6 @@ public class User {
         this.date = date;
     }
 
-    public String getWork(){
-        return work;
-    }
-    public int getYear(){
-        return year;
-    }
-    public int getMonth(){return month;}
-    public int getDate(){
-        return date;
-    }
 
 }
 // [END blog_user_class]
