@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "147449726546",
+    "firebase_url": "https://helpdormitory-master.firebaseio.com",
+    "project_id": "helpdormitory-master",
+    "storage_bucket": "helpdormitory-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147449726546:android:5f35a5035c3e1392",
+        "android_client_info": {
+          "package_name": "com.example.eunbee.help_dormitory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147449726546-gfu5sfeboqdobuo6c5jk4u5t746hsfen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eunbee.help_dormitory",
+            "certificate_hash": "291E992DA0B7D7FFC80A59B2988C4AA7AC078B2E"
+          }
+        },
+        {
+          "client_id": "147449726546-o2mubco9i7rofchhibau23tu22mlrgru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAacfLzJwlxRfJFynfIefN5YCd8YLpr05o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147449726546-o2mubco9i7rofchhibau23tu22mlrgru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
